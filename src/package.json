@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ari-px/Sprint2_tp3_modulo3nodejs.git"
+  },
+  "author": "Ariana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ari-px/Sprint2_tp3_modulo3nodejs/issues"
+  },
+  "homepage": "https://github.com/Ari-px/Sprint2_tp3_modulo3nodejs#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
