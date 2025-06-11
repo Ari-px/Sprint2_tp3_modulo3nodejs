@@ -2,7 +2,7 @@ import{obtenerSuperheroePorId,obtenerTodosLosSuperheroes,buscarSuperheroesPorAtr
 
 import { renderizarSuperheroe,renderizarListaSuperheroes } from '../views/responseView.mjs';
 
-export async function obtenerSuperheroePorIdController(req,res)
+export async function obtenerSuperheroePorIdControllers(req,res)
 {
     /* const superheroeFormateado = renderizarSuperheroe(superheroe);
     console.log(superheroeFormateado);*/
@@ -26,7 +26,7 @@ export async function obtenerSuperheroePorIdController(req,res)
     
 }
 
-export async function obtenerTodosLosSuperheroesController(req,res)
+export async function obtenerTodosLosSuperheroesControllers(req,res)
 {
     try{
             const superheroes = await obtenerTodosLosSuperheroes();
@@ -41,7 +41,7 @@ export async function obtenerTodosLosSuperheroesController(req,res)
     }
 }
 
-export async function buscarSuperheroesPorAtributoController(req,res)
+export async function buscarSuperheroesPorAtributoControllers(req,res)
 {
     try{
             const {atributo,valor} = req.params;
@@ -64,7 +64,7 @@ export async function buscarSuperheroesPorAtributoController(req,res)
     }
 }
 
-export async function obtenerSuperheroesMayoresDe30Controller(req,res)
+export async function obtenerSuperheroesMayoresDe30Controllers(req,res)
 {
     try 
     {
