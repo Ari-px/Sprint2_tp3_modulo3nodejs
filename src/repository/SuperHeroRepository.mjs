@@ -1,4 +1,4 @@
-import { SuperHero } from "../models/superheroe.mjs";
+import { SuperHero } from "../models/superhero.mjs";
 import { IRepository } from "./IRepository.mjs";
 
 class SuperHeroRepository extends IRepository {
