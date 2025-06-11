@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-export const conectarDB = async () => {
+export const connectDB = async () => {
   try {
     await mongoose.connect(
       "mongodb+srv://Grupo-09:grupo09@cursadanodejs.ls9ii.mongodb.net/Node-js"
